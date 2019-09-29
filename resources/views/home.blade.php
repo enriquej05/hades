@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Bienvenido, continua creciendo laboralmente! <!--Exto es un comentario-->
+                    Bienvenido, continua creciendo laboralmente! Nosotros te ayudamos <!--Exto es un comentario-->
                 </div>
             </div>
         </div>
