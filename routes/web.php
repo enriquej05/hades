@@ -18,7 +18,15 @@ Route::get('/principal', function () {
     return view('principal');
 });
 
+Route::get('/content', function() {
+    return view('courses/content');
+});
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
