@@ -11,6 +11,9 @@
 |
 */
 
+Route::resource('empresa','EmpresaController');
+Route::resource('user','UserController');
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,7 +24,9 @@ Route::get('/principal', function () {
 Route::get('/content', function() {
     return view('courses/content');
 });
-
+Route::get('/perfil', function () {
+  return view('user/perfil');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
