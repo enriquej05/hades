@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/principal', function () {
+    return view('principal');
+});
 
 
 Route::group(['prefix' => 'admin'], function () {
