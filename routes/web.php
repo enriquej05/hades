@@ -15,7 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/content', function() {
+    return view('courses/content');
+});
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
