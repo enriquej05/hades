@@ -11,12 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/principal', function () {
-    return view('principal');
-});
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/registro', 'RegisterController@aspirante');
+Route::post('/registro', 'RegisterController@aspiranteStore');
 
 Route::get('/content', function() {
     return view('courses/content');
@@ -25,8 +22,9 @@ Route::get('/content', function() {
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+    Route::post('/afiliar', 'CustomController@afiliar');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
