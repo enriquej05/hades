@@ -91,6 +91,8 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Registrar') }}
                                 </button>
+
+                                <a href="" class="btn btn-success">Soy una empresa</a>
                             </div>
                         </div>
                     </form>
