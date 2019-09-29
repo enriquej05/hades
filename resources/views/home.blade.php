@@ -11,6 +11,7 @@
         <img src="{{ asset('tema/img/slider/slider3.jpg') }}" alt="" title="#slider-direction-3" />
       </div>
 
+<<<<<<< HEAD
       <!-- direction 1 -->
       <div id="slider-direction-1" class="slider-direction slider-one">
         <div class="container">
@@ -20,6 +21,9 @@
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">The Best Business Information </h2>
+=======
+                    Bienvenido, continua creciendo laboralmente! Nosotros te ayudamos <!--Exto es un comentario-->
+>>>>>>> 06e707c8ca5be425b5fa2ac9acc0da95555bb528
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
