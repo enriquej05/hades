@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Landing page de la app
                 </div>
 
                 <div class="links">
